@@ -1,0 +1,81 @@
+.heading-primary {
+  line-height: 4rem;
+}
+
+.heading-primary--title {
+  font-size: 6rem;
+  font-weight: 800;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+}
+
+.heading-primary--sub {
+  font-size: 2rem;
+  display: block;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+
+.section-heading {
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  padding: 3rem 0 0 0;
+}
+
+.section-text {
+  font-size: 1.5rem;
+  padding: 3rem 0 2rem 0;
+}
+
+.section-icon {
+  font-size: 3rem;
+  padding: 3rem;
+}
+
+.navigation-bar {
+  font-size: 1.5rem;
+}
+
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.justify {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 75em) {
+  .section-heading {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding: 3rem 0 0 0;
+  }
+
+  .section-text {
+    font-size: 1.5rem;
+    padding: 3rem 0 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .heading-primary {
+    line-height: 3rem;
+  }
+
+  .heading-primary--title {
+    font-size: 4.5rem;
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  .heading-primary--sub {
+    font-size: 1.5rem;
+    display: block;
+    text-transform: uppercase;
+    margin: 1rem 0;
+  }
+}

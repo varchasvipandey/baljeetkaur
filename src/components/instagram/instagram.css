@@ -1,0 +1,14 @@
+.posts {
+  padding: 2rem;
+}
+
+.post {
+  margin: 1rem 4rem;
+  transition: all 0.2s;
+}
+.post:hover {
+  transform: translateY(-1rem) scale(1.1);
+}
+
+@media only screen and (max-width: 37.5em) {
+}

@@ -1,0 +1,31 @@
+.navigation-bar {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  padding: 2rem;
+  background: transparent !important;
+}
+
+.navigation-link {
+  margin-right: 2rem;
+  color: #eee !important;
+  transition: all 0.2s;
+}
+
+.navigation-link:hover {
+  transform: translateY(-3px) rotate(-10deg) scale(1.2);
+}
+
+.jump-to-top {
+  position: absolute;
+}
+
+ion-icon {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 1;
+  background: transparent;
+  font-size: 6rem;
+  color: #eee;
+}

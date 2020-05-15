@@ -1,0 +1,19 @@
+/* PORTRAIT */
+.portrait-image-container {
+  padding: 1rem;
+}
+
+.portrait-image {
+  width: 100%;
+}
+
+.landscape-image-container {
+  padding: 1rem;
+}
+
+.landscape-image {
+  width: 100%;
+}
+
+@media only screen and (max-width: 37.5em) {
+}

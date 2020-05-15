@@ -1,0 +1,29 @@
+main {
+  background-color: #010101;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.section-heading {
+  color: #eee;
+}
+
+hr {
+  text-align: center;
+  background-color: white;
+  margin: 4rem 0 0 0;
+}
+
+.section-text {
+  color: #eee;
+}
+
+.section-icon {
+  color: #eee;
+  transition: all 0.2s;
+}
+.section-icon:hover {
+  color: rgb(0, 140, 255);
+}
